@@ -1,0 +1,86 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 	.contact-img {
+    padding: 30px;
+		text-align: center;
+}
+	.author-food-img{
+		text-align: center;
+	}
+    .header-text h2 { 
+    font-size: 50px;   
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	.contact-img {
+    padding: 30px;
+}
+.section-title.white-sec-title {
+    font-size: 25px;
+}
+
+.carousel-inner {
+    font-size: 20px;
+}
+.header-text h2 { 
+    font-size: 34px;   
+}
+	
+	.logo{
+		text-align: center;
+	}
+	.logo img {
+    height: 50px;
+}
+	.mainmenu{
+		padding-right: 0;
+		padding-top: 20px;
+		text-align: center;
+		
+	}
+	.navbar-header{
+		position: absolute;
+		right: 0;
+		top: -40px;
+	}
+	.social-Links{
+		top:-8px;
+	}
+	
+	.navbar-toggle{
+		
+		float: none;
+		margin: 0;
+		border: #fff 1px solid;
+	}
+	.navbar-toggle .icon-bar{
+		background: #fff none repeat;
+		
+	}
+	.mobile-menu-activated ul.nav.navbar-nav{
+		background: #000 none repeat;
+		text-align: center;
+		
+	}
+	.mobile-menu-activated ul.nav.navbar-nav li{
+		display: block;
+		
+	}
+	.mobile-menu-activated ul.nav.navbar-nav li a {
+		border-bottom: 1px solid #333;
+		padding: 15px;
+	}
+	.mobile-menu-activated .navbar-collapse{
+		box-shadow:  0 0 0;
+	}
+	
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
